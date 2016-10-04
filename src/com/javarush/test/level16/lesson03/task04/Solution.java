@@ -23,7 +23,7 @@ public class Solution {
         public void run()
         {
             for (StackTraceElement element : Thread.currentThread().getStackTrace()) {
-                System.out.println(element);
+                System.err.println(element);
             }
         }
     }
